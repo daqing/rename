@@ -1,9 +1,16 @@
-rename
+About
 ======
 
-An utility to rename file names easily.
+`rename` is an utility to rename file names easily.
 
-usage
+Installation
+=============
+
+```bash
+$ go install github.com/daqing/rename@latest
+```
+
+Usage
 ======
 
 $ rename ./a.txt b
@@ -11,4 +18,3 @@ $ rename ./a.txt b
 
 $ rename ./a.txt .md
 > a.txt was renamed to a.md
-
